@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Delugia Mono Nerd Font";
-  src: url("Delugia.Mono.Nerd.Font.Complete.ttf");
+  src: url("Assets/Delugia.Mono.Nerd.Font.Complete.ttf");
   font-display: swap;
 }
 ::-webkit-scrollbar-thumb {
@@ -40,10 +40,12 @@ pre {
   line-height: 16px;
   margin: 0;
   padding: 0;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
+  margin-bottom: auto;
 
   margin-left: auto;
   margin-right: auto;
+  min-width: 80ch;
   max-width: 80ch;
 }
 titles {
@@ -141,12 +143,12 @@ titles2 {
 a:link {
   color: #00afff;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:visited {
   color: #00afff;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover {
   color: Black;
