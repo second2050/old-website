@@ -36,18 +36,20 @@ body {
 }
 pre {
   font-family: "Delugia Mono Nerd Font", monospace;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 1em;
   font-weight: normal;
   color: #ffffff;
-  line-height: 16px;
+  /* line-height: 16px; */
+  line-height: 1em;
   margin: 0;
   padding: 0;
   /* margin-bottom: 16px; */
   margin-bottom: auto;
-
   margin-left: auto;
   margin-right: auto;
-  min-width: 80ch;
+  /* min-width: 80ch; */
+  width: 100%;
   max-width: 80ch;
 }
 titles {
