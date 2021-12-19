@@ -7,3 +7,4 @@ if [ ! -f /bin/git ]; then
 fi
 git clone https://github.com/second2050/arch-install-scripts
 cd arch-install-scripts
+./setup_full.sh
