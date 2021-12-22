@@ -343,3 +343,18 @@ a:active {
     transform: skew(0deg, 0deg);
   }
 }
+
+/* Remove all animations and transitions for people that prefer not to see them; from Kellegram */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
