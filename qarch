@@ -6,5 +6,4 @@ if [ ! -f /bin/git ]; then
     pacman -Sy --noconfirm git
 fi
 git clone https://github.com/second2050/arch-install-scripts
-cd arch-install-scripts
-./setup_full.sh
+printf "\nScript downloaded to: ./arch-install-scripts\n"
